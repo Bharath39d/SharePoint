@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "bharath-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/bharath/BharathWebPart.js",
+          "manifest": "./src/webparts/bharath/BharathWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "BharathWebPartStrings": "lib/webparts/bharath/loc/{locale}.js"
+  }
+}
